@@ -16,7 +16,7 @@ function reducer( state , action){
           };
           return{...state , todo :[newtodo , ...state.todo]};
 
-        case 'LOAD_TODO':
+        // case 'LOAD_TODO':
 
 
 
