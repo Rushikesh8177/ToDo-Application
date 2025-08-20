@@ -19,7 +19,7 @@ const Navbar = () => {
           <Link className="nav-link" to="/about">About</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link " to="/createTask" tabindex="-1" aria-disabled="true">Add New Task</Link>
+          <Link className="nav-link" to="/createTask" tabIndex="-1" aria-disabled="true">Create Task</Link>
         </li>
       </ul>
       <form className="d-flex">
